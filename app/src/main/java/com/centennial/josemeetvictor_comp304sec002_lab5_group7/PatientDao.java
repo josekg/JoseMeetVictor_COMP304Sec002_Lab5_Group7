@@ -12,7 +12,8 @@ public class PatientDao {
 
     //Singleton Pattern to have one instance of DB
 
-    private PatientDao(){
+    private PatientDao()
+    {
         database = FirebaseDatabase.getInstance();
         myRef = database.getReference(DATABASE_NAME);
     }

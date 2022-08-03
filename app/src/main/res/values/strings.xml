@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">JoseMeetVictor_COMP304Sec002_Lab5_Group7</string>
+    <string name="id">ID</string>
+    <string name="patient_s_name">Patient\'s Name</string>
+    <string name="patient_s_disease">Patient\'s Disease</string>
+    <string name="patient_s_bill">Patient\'s Bill</string>
+    <string name="age">Age</string>
 </resources>
