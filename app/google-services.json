@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "372086877403",
+    "project_id": "hospital-patientscomp304",
+    "storage_bucket": "hospital-patientscomp304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372086877403:android:4e3e197d4c2a244577f0fe",
+        "android_client_info": {
+          "package_name": "com.centennial.josemeetvictor_comp304sec002_lab5_group7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372086877403-c4tb3ahi44jbm9uf76m4e2224eiitmm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj7HqfE5UC8cuVqwzEaFFIg1q7I4nn3G0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372086877403-c4tb3ahi44jbm9uf76m4e2224eiitmm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
