@@ -1,17 +1,31 @@
 package com.centennial.josemeetvictor_comp304sec002_lab5_group7;
 
 public class Patient {
+    private int id;
     private String name;
     private int age;
     private String disease;
     private int bill;
 
-    public Patient(String name, int age, String disease, int bill)
+    public Patient ()
     {
+
+    }
+    public Patient(int id, String name, int age, String disease, int bill)
+    {
+        this.id = id;
         this.name = name;
         this.age = age;
         this.disease = disease;
         this.bill = bill;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

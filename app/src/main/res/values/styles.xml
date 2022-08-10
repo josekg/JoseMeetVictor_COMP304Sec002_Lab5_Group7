@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HospitalTheme" parent="Theme.AppCompat">
+        <item name="android:background">@color/teal_200</item>
+        <item name="android:textColor">@color/textC</item>
+    </style>
+
+    <style name="ButtonColor" parent="Theme.AppCompat">
+        <item name="android:backgroundTint">@color/purple</item>
+    </style>
+
+    <style name="EditTextColor" parent="Widget.AppCompat.EditText">
+        <item name="android:backgroundTint">@color/purple</item>
+        <item name="android:textColorHint">@color/textC</item>
+    </style>
+
+    <style name="RecyclerView" parent="Base.CardView">
+        <item name="android:background">@color/purple</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

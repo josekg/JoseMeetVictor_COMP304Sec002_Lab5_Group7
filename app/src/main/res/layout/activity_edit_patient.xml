@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/HospitalTheme"
+    tools:context=".EditPatient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_s_name"/>
+
+    <EditText
+        android:id="@+id/e_text_name"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_name"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_s_age"/>
+
+    <EditText
+        android:id="@+id/e_text_age"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_age"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_s_disease"/>
+
+    <EditText
+        android:id="@+id/e_text_disease"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_disease"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_s_bill"/>
+
+    <EditText
+        android:id="@+id/e_text_bill"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_bill"
+        android:inputType="number"/>
+
+
+        <Button
+            android:id="@+id/delete"
+            android:theme="@style/ButtonColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/delete"/>
+
+</LinearLayout>

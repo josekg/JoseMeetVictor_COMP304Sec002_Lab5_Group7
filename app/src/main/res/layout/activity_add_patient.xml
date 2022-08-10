@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/HospitalTheme"
+    tools:context=".AddPatient">
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_id"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/edit_text_age"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/edit_text_disease"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_disease"
+        android:inputType="textMultiLine"/>
+
+    <EditText
+        android:id="@+id/edit_text_bill"
+        android:theme="@style/EditTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/patient_s_bill"
+        android:inputType="number"/>
+
+</LinearLayout>

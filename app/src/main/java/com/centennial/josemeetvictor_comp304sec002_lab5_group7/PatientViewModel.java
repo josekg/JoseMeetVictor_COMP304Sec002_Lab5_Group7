@@ -5,6 +5,8 @@ import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 
+import java.util.ArrayList;
+
 public class PatientViewModel extends AndroidViewModel {
 
     private PatientRepository patientRepository;
@@ -16,4 +18,10 @@ public class PatientViewModel extends AndroidViewModel {
     }
 
     public void insert(Patient patient) { patientRepository.insert(patient);}
+
+    public void delete(int id) { patientRepository.delete(id);}
+
+    public void update(int iD, String name, int ageNew, String disease, int billNew) {
+        patientRepository.update(iD, name, ageNew, disease, billNew);
+    }
 }

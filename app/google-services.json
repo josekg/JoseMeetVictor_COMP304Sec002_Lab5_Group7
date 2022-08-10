@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "372086877403",
+    "firebase_url": "https://hospital-patientscomp304-default-rtdb.firebaseio.com",
     "project_id": "hospital-patientscomp304",
     "storage_bucket": "hospital-patientscomp304.appspot.com"
   },

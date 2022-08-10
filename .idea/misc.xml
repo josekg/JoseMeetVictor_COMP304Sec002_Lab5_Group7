@@ -3,8 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2455" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/drawable/ic_baseline_library_add_24.xml" value="0.2455" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/font/poppins.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/font/poppins_semibold.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/activity_add_edit_patient.xml" value="0.2359375" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/activity_add_patient.xml" value="0.25" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/activity_edit_patient.xml" value="0.25" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/activity_main.xml" value="0.3625" />
-        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/patient_item.xml" value="0.536" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/activity_patient.xml" value="0.25" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/layout/patient_item.xml" value="0.264" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/menu/add_menu.xml" value="0.25" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/menu/signout_menu.xml" value="0.25" />
+        <entry key="..\:/Users/efren/AndroidStudioProjects/JoseMeetVictor_COMP304Sec002_Lab5_Group7/app/src/main/res/menu/update_menu.xml" value="0.24895833333333334" />
       </map>
     </option>
   </component>
